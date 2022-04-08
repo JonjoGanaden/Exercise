@@ -1,0 +1,8 @@
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\bin\Debug\GuessingGame.exe.config
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\bin\Debug\GuessingGame.exe
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\bin\Debug\GuessingGame.pdb
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\obj\Debug\GuessingGame.csproj.AssemblyReference.cache
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\obj\Debug\GuessingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\obj\Debug\GuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\obj\Debug\GuessingGame.exe
+C:\Users\jonjo\Desktop\AWS\Exercise\GuessingGame\obj\Debug\GuessingGame.pdb
