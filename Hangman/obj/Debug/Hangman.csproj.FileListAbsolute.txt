@@ -1,0 +1,8 @@
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\bin\Debug\Hangman.exe
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\bin\Debug\Hangman.pdb
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\obj\Debug\Hangman.csproj.AssemblyReference.cache
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\obj\Debug\Hangman.csproj.SuggestedBindingRedirects.cache
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\obj\Debug\Hangman.exe
+C:\Users\jonjo\Desktop\AWS\Exercise\Hangman\obj\Debug\Hangman.pdb
