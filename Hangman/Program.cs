@@ -104,7 +104,7 @@ namespace Hangman
                     else
                     {
                         Console.WriteLine("Doesnt contain letter: {0}", playerChar);
-                        lives--;
+                        lives -= 1;
                     }
                     
                 }
