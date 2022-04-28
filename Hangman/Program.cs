@@ -16,8 +16,7 @@ namespace Hangman
             string secretword = Console.ReadLine();
 
             int lives = 5;
-            int counter = -1; 
-
+            
 
             bool lettersonly = secretword.All(Char.IsLetter);
 
@@ -36,7 +35,8 @@ namespace Hangman
             char[] Arraylength = new char[wordLength];
             char[] guessedLetters = new char[32];
             int numberStore = 0;
-            bool victory = false;
+            bool WinCondition = false;
+            int counter = -1; 
 
             foreach (char letter in Arraylength)
             {
@@ -53,7 +53,7 @@ namespace Hangman
 
                 if (printProgress == secretword)
                 {
-                    victory = true;
+                    WinCondition = true;
                     break;
                 }
 
@@ -63,16 +63,14 @@ namespace Hangman
                 }
 
                 Console.WriteLine("current progress: " + printProgress);
-                Console.Write("\n\n\n");
                 Console.Write("Guess a letter: ");
                 string playerGuess = Console.ReadLine();
 
-                //test to make sure a single letter
                 bool guessTest = playerGuess.All(Char.IsLetter);
 
                 while (guessTest == false || playerGuess.Length != 1)
                 {
-                    Console.WriteLine("Please enter only a single letter!");
+                    Console.WriteLine("single letter only");
                     Console.Write("Guess a letter: ");
                     playerGuess = Console.ReadLine();
                     guessTest = playerGuess.All(Char.IsLetter);
@@ -105,7 +103,7 @@ namespace Hangman
                     }
                     else
                     {
-                        Console.WriteLine("Doesnt contain letter: {0}!", playerChar);
+                        Console.WriteLine("Doesnt contain letter: {0}", playerChar);
                         lives--;
                     }
                     
@@ -119,7 +117,7 @@ namespace Hangman
             }
 
 
-            if (victory)
+            if (WinCondition)
             {
                 Console.WriteLine("\n\nwell done");
                 Console.WriteLine("The word was:" + secretword);
