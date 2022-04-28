@@ -127,9 +127,61 @@ namespace Hangman
                     {
                     Console.WriteLine("You already guessed {0}", playerChar);
                     }
+                
 
+                //hanging stickman drawing for each life remaining
+                if (lives < 5)
+                {
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                }
+
+                if (lives < 4)
+                {
+                    Console.WriteLine("________\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                }
+
+                if (lives < 3)
+                {
+                    Console.WriteLine("________\n");
+                    Console.WriteLine("|      |\n");
+                    Console.WriteLine("|      O\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                }
+
+                if (lives < 2)
+                {
+                    Console.WriteLine("________\n");
+                    Console.WriteLine("|      |\n");
+                    Console.WriteLine("|      O\n");
+                    Console.WriteLine("|     /|\\ \n");
+                    Console.WriteLine("|\n");
+                    Console.WriteLine("|\n");
+                }
+
+                if (lives == 0)
+                {
+                    Console.WriteLine("________\n");
+                    Console.WriteLine("|      |\n");
+                    Console.WriteLine("|      O\n");
+                    Console.WriteLine("|     /|\\ \n");
+                    Console.WriteLine("|     /|\\ \n");
+                    Console.WriteLine("|\n");
+                }
 
             }
+
+
 
             //condition if player wins or loses
             if (WinCondition)
