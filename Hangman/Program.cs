@@ -175,7 +175,7 @@ namespace Hangman
                     Console.WriteLine("|      |\n");
                     Console.WriteLine("|      O\n");
                     Console.WriteLine("|     /|\\ \n");
-                    Console.WriteLine("|     /|\\ \n");
+                    Console.WriteLine("|     / \\ \n");
                     Console.WriteLine("|\n");
                 }
 
