@@ -127,7 +127,7 @@ namespace Hangman
                     {
                     Console.WriteLine("You already guessed {0}", playerChar);
                     }
-                
+
 
                 //hanging stickman drawing for each life remaining
                 if (lives < 5)
